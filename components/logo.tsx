@@ -22,7 +22,6 @@ export const Logo = () => {
       <Image
         priority
         src={crest}
-        placeholder="blur"
         alt="Hamburg GAA crest"
         width="400"
         height="373"
