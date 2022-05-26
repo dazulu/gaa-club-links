@@ -37,20 +37,33 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <ButtonLink href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/">
+          <ButtonLink
+            href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
+            id="PBVQYPOJ"
+          >
             Training Times
           </ButtonLink>
-          <ButtonLink href="https://www.instagram.com/hamburggaa/">
+          <ButtonLink
+            href="https://www.instagram.com/hamburggaa/"
+            id="R6BVUWXF"
+          >
             Instagram
           </ButtonLink>
-          <ButtonLink href="https://www.facebook.com/HamburgGAA">
+          <ButtonLink href="https://www.facebook.com/HamburgGAA" id="CIMJJCSZ">
             Facebook
           </ButtonLink>
-          <ButtonLink href="https://twitter.com/HamburgGAA">Twitter</ButtonLink>
-          <ButtonLink href="https://www.linkedin.com/company/hamburggaa/">
+          <ButtonLink href="https://twitter.com/HamburgGAA" id="XM8G8FBE">
+            Twitter
+          </ButtonLink>
+          <ButtonLink
+            href="https://www.linkedin.com/company/hamburggaa/"
+            id="VUNL18GD"
+          >
             LinkedIn
           </ButtonLink>
-          <ButtonLink href="http://hamburggaa.de/">Club Website</ButtonLink>
+          <ButtonLink href="http://hamburggaa.de/" id="11F7QXPS">
+            Club Website
+          </ButtonLink>
         </div>
       </main>
 
