@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+
+import { Logo } from "../components/logo";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -12,7 +14,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.grid}>lorem</div>
+        <div className={styles.grid}>
+          <Logo />
+        </div>
       </main>
 
       <footer className={styles.footer}>d</footer>
