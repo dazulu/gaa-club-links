@@ -6,6 +6,7 @@ import styles from "../styles/Logo.module.css";
 
 export const Logo = () => {
   const handleOrientation = (event: DeviceOrientationEvent) => {
+    // ToDo: move logo on device orientation change
     console.log(event);
   };
 
