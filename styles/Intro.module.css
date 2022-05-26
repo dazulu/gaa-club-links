@@ -1,0 +1,11 @@
+.intro {
+  margin: 2rem 0;
+  text-align: center;
+  width: 80vw;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    max-width: 500px;
+  }
+}

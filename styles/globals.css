@@ -7,8 +7,13 @@ body {
 }
 
 body {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 1rem;
+
   background: linear-gradient(-45deg, #004d73, #155e8f, #0973b1);
   background-size: 400% 400%;
+  color: white;
   animation: gradient 15s ease infinite;
 }
 
