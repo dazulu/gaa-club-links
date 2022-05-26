@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
             id="PBVQYPOJ"
           >
-            Training Times
+            ✨ Play with us! ✨
           </ButtonLink>
           <ButtonLink
             href="https://www.instagram.com/hamburggaa/"
