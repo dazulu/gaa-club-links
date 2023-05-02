@@ -37,9 +37,6 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <ButtonLink href="https://gofund.me/48ce5503" id="EVNPQJOA">
-            Special Olympics World Games Berlin
-          </ButtonLink>
           <ButtonLink
             href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
             id="PBVQYPOJ"
