@@ -37,11 +37,14 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
+          <ButtonLink href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games">
+            ✨ Support German Ladies Team ✨
+          </ButtonLink>
           <ButtonLink
             href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
             id="PBVQYPOJ"
           >
-            ✨ Play with us! ✨
+            Play with us
           </ButtonLink>
           <ButtonLink
             href="https://www.instagram.com/hamburggaa/"
