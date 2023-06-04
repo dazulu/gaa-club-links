@@ -37,14 +37,23 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <ButtonLink href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games">
+          <ButtonLink
+            href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games"
+            id="VRQP2KOP"
+          >
             ✨ Support German Ladies Team ✨
+          </ButtonLink>
+          <ButtonLink
+            href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
+            id="GSCQEHGR"
+          >
+            📺 See us on TV 📺
           </ButtonLink>
           <ButtonLink
             href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
             id="PBVQYPOJ"
           >
-            Play with us
+            Play in Hamburg
           </ButtonLink>
           <ButtonLink
             href="https://www.instagram.com/hamburggaa/"
