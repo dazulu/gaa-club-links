@@ -37,12 +37,22 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <ButtonLink
-            href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games"
-            id="VRQP2KOP"
-          >
-            ✨ Support German Ladies Team ✨
-          </ButtonLink>
+          <div>
+            <p className={styles.supportText}>
+              Support our German ladies teams at the World Games in Derry 2023
+            </p>
+            <div className={styles.buttonGroup}>
+              <ButtonLink href="https://gofund.me/ca0e3cb9" id="EJWF1VDP">
+                Support Camogie
+              </ButtonLink>
+              <ButtonLink
+                href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games"
+                id="VRQP2KOP"
+              >
+                Support Gaelic Football
+              </ButtonLink>
+            </div>
+          </div>
           <ButtonLink
             href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
             id="GSCQEHGR"
