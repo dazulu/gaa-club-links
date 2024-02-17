@@ -37,33 +37,17 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <div>
-            <p className={styles.supportText}>
-              Support our German ladies teams at the World Games in Derry 2023
-            </p>
-            <div className={styles.buttonGroup}>
-              <ButtonLink href="https://gofund.me/ca0e3cb9" id="EJWF1VDP">
-                Support Camogie
-              </ButtonLink>
-              <ButtonLink
-                href="https://www.gofundme.com/f/german-ladies-gaelic-football-team-world-games"
-                id="VRQP2KOP"
-              >
-                Support Gaelic Football
-              </ButtonLink>
-            </div>
-          </div>
+          <ButtonLink
+            href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
+            id="PBVQYPOJ"
+          >
+            Play with us in Hamburg
+          </ButtonLink>
           <ButtonLink
             href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
             id="GSCQEHGR"
           >
             📺 See us on TV 📺
-          </ButtonLink>
-          <ButtonLink
-            href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
-            id="PBVQYPOJ"
-          >
-            Play in Hamburg
           </ButtonLink>
           <ButtonLink
             href="https://www.instagram.com/hamburggaa/"
@@ -73,9 +57,6 @@ const Home: NextPage = () => {
           </ButtonLink>
           <ButtonLink href="https://www.facebook.com/HamburgGAA" id="CIMJJCSZ">
             Facebook
-          </ButtonLink>
-          <ButtonLink href="https://twitter.com/HamburgGAA" id="XM8G8FBE">
-            Twitter
           </ButtonLink>
           <ButtonLink
             href="https://www.linkedin.com/company/hamburggaa/"
