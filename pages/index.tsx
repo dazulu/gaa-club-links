@@ -37,9 +37,6 @@ const Home: NextPage = () => {
         <Logo />
         <Intro />
         <div className={styles.buttons}>
-          <ButtonLink href="https://maps.app.goo.gl/ekubtx7XFSeLoonE8">
-            🏆 April 6 German cups location 🗺️
-          </ButtonLink>
           <ButtonLink
             href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
             id="PBVQYPOJ"
