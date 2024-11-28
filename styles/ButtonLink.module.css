@@ -11,7 +11,8 @@
   width: 100%;
 }
 
-.button:first-of-type {
+.button:nth-child(1),
+.button:nth-child(2) {
   background: white;
   color: #146092;
   font-weight: 500;

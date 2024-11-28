@@ -37,10 +37,16 @@ const Home: NextPage = () => {
         <Intro />
         <div className={styles.buttons}>
           <ButtonLink
-            href="https://www.meetup.com/Irish-Sports-Hurling-Camogie-Gaelic/"
+            href="https://buchung.hochschulsport-hamburg.de/angebote/Wintersemester_2024_2025/_Hurling_und_Camogie.html"
             id="PBVQYPOJ"
           >
-            Play with us in Hamburg
+            Play hurling/camogie
+          </ButtonLink>
+          <ButtonLink
+            href="https://buchung.hochschulsport-hamburg.de/angebote/Wintersemester_2024_2025/_Gaelic_Football.html"
+            id="PBVQYPOK"
+          >
+            Play Gaelic Football
           </ButtonLink>
           <ButtonLink
             href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
