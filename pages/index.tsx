@@ -3,11 +3,13 @@ import Head from "next/head";
 import { Intro } from "../components/intro";
 import { Logo } from "../components/logo";
 import type { NextPage } from "next";
+import { Snow } from "../components/snow";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <Snow />
       <div className={styles.blur} />
       <Head>
         <title>Hamburg GAA Links</title>
