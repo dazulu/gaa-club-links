@@ -103,8 +103,8 @@ const Page: NextPage = () => {
               <li>Teilen des Beitrags in der Story mit Markierung</li>
               <li>Kommentieren und Markieren eines Freundes</li>
               <li>
-                Teilnahmezeitraum: 26. Februar 2025, 21:00 Uhr CET bis 17. März
-                2025, 23:59 Uhr CET
+                Teilnahmezeitraum: 26. Februar 2025, 21:00 Uhr CET bis 14. März
+                2025, 22:00 Uhr CET
               </li>
             </ul>
             <h2>4. Gewinn</h2>
@@ -129,7 +129,7 @@ const Page: NextPage = () => {
             <ul>
               <li>
                 Die Ziehung erfolgt per Zufallsprinzip unter allen berechtigten
-                Teilnehmern am 18. März 2025. Ein Zeuge wird anwesend sein, um
+                Teilnehmern am 14. März 2025. Ein Zeuge wird anwesend sein, um
                 den Auswahlprozess zu bestätigen.
               </li>
               <li>
@@ -224,8 +224,8 @@ const Page: NextPage = () => {
               <li>Share post to your story with tag</li>
               <li>Comment with friend tag</li>
               <li>
-                Entry period: February 26th 2025 21:00 CET, to March 17th 2025,
-                23:59 CET
+                Entry period: February 26 2025 21:00 CET, to March 14 2025,
+                22:00 CET
               </li>
             </ul>
             <h2>4. Prize</h2>
@@ -248,7 +248,7 @@ const Page: NextPage = () => {
             <h2>5. Winner Selection</h2>
             <ul>
               <li>
-                Random selection from all eligible participants on March 18th,
+                Random selection from all eligible participants on March 14,
                 2025. A witness will be present to verify the selection process.
               </li>
               <li>Winner will be contacted via Instagram direct message</li>
