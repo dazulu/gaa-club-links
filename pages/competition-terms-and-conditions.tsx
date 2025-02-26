@@ -62,7 +62,8 @@ const Page: NextPage = () => {
             </p>
             <h2>1. Veranstalter</h2>
             Hamburg GAA Club e.V., &quot;The Irish Rover&quot;, Großneumarkt 8,
-            20459 Hamburg, Deutschland, info@hamburggaa.de
+            20459 Hamburg, Deutschland,{" "}
+            <a href="mailto:info@hamburggaa.de">info@hamburggaa.de</a>
             <h2>2. Teilnahmeberechtigung</h2>
             <ul>
               <li>
@@ -114,12 +115,22 @@ const Page: NextPage = () => {
               </li>
               <li>Eine Barauszahlung ist nicht möglich</li>
               <li>Der Gewinn ist nicht übertragbar</li>
+              <li>
+                Der Gewinner muss seinen vollständigen Namen und seine
+                Telefonnummer für die Gästeliste angeben.
+              </li>
+              <li>
+                Ein gültiger Ausweis, der mit den bei der Gewinnbestätigung
+                angegebenen Daten übereinstimmt, ist beim Konzert zur
+                Einlasskontrolle erforderlich.
+              </li>
             </ul>
             <h2>5. Gewinnermittlung</h2>
             <ul>
               <li>
                 Die Ziehung erfolgt per Zufallsprinzip unter allen berechtigten
-                Teilnehmern am 18. März 2025
+                Teilnehmern am 18. März 2025. Ein Zeuge wird anwesend sein, um
+                den Auswahlprozess zu bestätigen.
               </li>
               <li>
                 Der Gewinner muss sich innerhalb von 72 Stunden zurückmelden
@@ -160,6 +171,10 @@ const Page: NextPage = () => {
               </li>
               <li>Der Rechtsweg ist ausgeschlossen</li>
             </ul>
+            <p>
+              Bitte beachten Sie die weiteren Bedingungen des
+              Konzertveranstalters, die zusätzlich gelten.
+            </p>
           </div>
         ) : (
           <div className={pageStyles.wrapper}>
@@ -221,19 +236,23 @@ const Page: NextPage = () => {
               </li>
               <li>No cash alternatives</li>
               <li>Non-transferable</li>
+              <li>
+                Winner must provide their full name and their phone number for
+                guest list
+              </li>
+              <li>
+                Valid ID matching that given on win confirmation will be
+                required at the concert to verify entry.
+              </li>
             </ul>
             <h2>5. Winner Selection</h2>
             <ul>
               <li>
                 Random selection from all eligible participants on March 18th,
-                2025
-              </li>
-              <li>Winner must respond within 72 hours</li>
-              <li>
-                Winner must provide their full name and their phone number for
-                guest list
+                2025. A witness will be present to verify the selection process.
               </li>
               <li>Winner will be contacted via Instagram direct message</li>
+              <li>Winner must respond within 72 hours</li>
             </ul>
             <h2>6. Data Protection</h2>
             <ul>
@@ -260,6 +279,9 @@ const Page: NextPage = () => {
                 Legal recourse is excluded (Der Rechtsweg ist ausgeschlossen)
               </li>
             </ul>
+            <p>
+              Please see the concert venue for further conditions that apply.
+            </p>
           </div>
         )}
       </main>
