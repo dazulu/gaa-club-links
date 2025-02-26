@@ -1,5 +1,6 @@
-import Link, { LinkProps } from "next/link";
 import * as Fathom from "fathom-client";
+
+import Link, { LinkProps } from "next/link";
 
 import styles from "../styles/ButtonLink.module.css";
 

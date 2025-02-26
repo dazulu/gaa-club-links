@@ -3,13 +3,14 @@ import Head from "next/head";
 import { Intro } from "../components/intro";
 import { Logo } from "../components/logo";
 import type { NextPage } from "next";
-import { Snow } from "../components/snow";
 import styles from "../styles/Home.module.css";
+
+// import { Snow } from "../components/snow";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Snow />
+      {/* <Snow /> */}
       <div className={styles.blur} />
       <Head>
         <title>Hamburg GAA Links</title>
@@ -49,6 +50,9 @@ const Home: NextPage = () => {
             id="PBVQYPOK"
           >
             Play Gaelic Football
+          </ButtonLink>
+          <ButtonLink href="/competition-terms-and-conditions">
+            Giveaway Terms & Conditions
           </ButtonLink>
           <ButtonLink
             href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
