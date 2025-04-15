@@ -51,9 +51,6 @@ const Home: NextPage = () => {
           >
             Play Gaelic Football
           </ButtonLink>
-          <ButtonLink href="/competition-terms-and-conditions">
-            Giveaway Terms & Conditions
-          </ButtonLink>
           <ButtonLink
             href="https://www.tg4.ie/ga/player/seinn/?pid=6328556805112&series=Cluiche%20As%20Baile&genre=Faisneis"
             id="GSCQEHGR"
