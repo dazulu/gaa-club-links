@@ -40,13 +40,13 @@ const Home: NextPage = () => {
         <Intro />
         <div className={styles.buttons}>
           <ButtonLink
-            href="https://buchung.hochschulsport-hamburg.de/angebote/Wintersemester_2024_2025/_Hurling_und_Camogie.html"
+            href="https://buchung.hochschulsport-hamburg.de/angebote/Sommersemester_2025/_Hurling_und_Camogie.html"
             id="PBVQYPOJ"
           >
             Play hurling/camogie
           </ButtonLink>
           <ButtonLink
-            href="https://buchung.hochschulsport-hamburg.de/angebote/Wintersemester_2024_2025/_Gaelic_Football.html"
+            href="https://buchung.hochschulsport-hamburg.de/angebote/Sommersemester_2025/_Gaelic_Football.html"
             id="PBVQYPOK"
           >
             Play Gaelic Football
